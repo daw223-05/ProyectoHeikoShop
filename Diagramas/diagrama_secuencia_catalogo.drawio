@@ -1,0 +1,75 @@
+<mxfile host="app.diagrams.net" modified="2023-05-23T20:55:16.409Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="hZ7Uy5xFMfgjAB1tWgZO" version="21.3.3" type="device">
+  <diagram name="Página-1" id="2oAl6DNx__c3rD0mkpTA">
+    <mxGraphModel dx="4742" dy="-1542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zbVBv9_Zid_EU1HfwvB4-1" value=":Catalogo de productos" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="-3050" y="2830" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="zbVBv9_Zid_EU1HfwvB4-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="zbVBv9_Zid_EU1HfwvB4-1" vertex="1">
+          <mxGeometry x="45" y="60" width="10" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="zbVBv9_Zid_EU1HfwvB4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zbVBv9_Zid_EU1HfwvB4-15" target="zbVBv9_Zid_EU1HfwvB4-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-3210" y="3005.032258064516" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-3080" y="2900" />
+              <mxPoint x="-3080" y="2900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zbVBv9_Zid_EU1HfwvB4-4" value="Base de datos de la tienda" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="-2700" y="2830" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="zbVBv9_Zid_EU1HfwvB4-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="zbVBv9_Zid_EU1HfwvB4-4" vertex="1">
+          <mxGeometry x="45" y="60" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zbVBv9_Zid_EU1HfwvB4-6" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" parent="1" source="zbVBv9_Zid_EU1HfwvB4-2" target="zbVBv9_Zid_EU1HfwvB4-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2920" y="2920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zbVBv9_Zid_EU1HfwvB4-7" value="Acceso a listado de productos" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-3176.5" y="2870" width="141" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zbVBv9_Zid_EU1HfwvB4-8" value="Selección de filtrado" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-2990" y="2889" width="141" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zbVBv9_Zid_EU1HfwvB4-9" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" parent="1" source="zbVBv9_Zid_EU1HfwvB4-5" target="zbVBv9_Zid_EU1HfwvB4-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2920" y="3030" as="sourcePoint" />
+            <mxPoint x="-2930" y="3010" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2920" y="2980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zbVBv9_Zid_EU1HfwvB4-10" value="Listado siguiendo los filtros indicados" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-2990" y="2949" width="141" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zbVBv9_Zid_EU1HfwvB4-11" value=":Single Product" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="-2850" y="2830" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="zbVBv9_Zid_EU1HfwvB4-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="zbVBv9_Zid_EU1HfwvB4-11" vertex="1">
+          <mxGeometry x="45" y="190" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zbVBv9_Zid_EU1HfwvB4-13" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" parent="1" source="zbVBv9_Zid_EU1HfwvB4-2" target="zbVBv9_Zid_EU1HfwvB4-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2820" y="3050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zbVBv9_Zid_EU1HfwvB4-14" value="Selección de producto" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-2985" y="3020" width="141" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zbVBv9_Zid_EU1HfwvB4-15" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" parent="1" vertex="1">
+          <mxGeometry x="-3220" y="2830" width="20" height="300" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
