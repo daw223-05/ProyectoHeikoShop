@@ -1,0 +1,39 @@
+version: '3.1'
+
+services:
+
+  wordpress:
+    image: alberto0505/wordpress-tienda:1.0
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: exampleuser
+      WORDPRESS_DB_PASSWORD: examplepass
+      WORDPRESS_DB_NAME: exampledb
+      WORDPRESS_CONFIG_EXTRA: |
+        define( 'WP_HOME', 'http://{TU IP}:8080' );
+        define( 'WP_SITEURL', 'http://{TU IP}:8080' );
+
+    volumes:
+      - wordpress:/var/www/html
+
+  db:
+    image: alberto0505/db-tienda:1.0
+    restart: always
+    environment:
+      MYSQL_DATABASE: exampledb
+      MYSQL_USER: exampleuser
+      MYSQL_PASSWORD: examplepass
+      MYSQL_RANDOM_ROOT_PASSWORD: '1'
+    volumes:
+      - db:/var/lib/mysql
+
+volumes:
+  wordpress:
+  db:
+
+
+
+
