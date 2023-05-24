@@ -1,0 +1,32 @@
+﻿Método.1. Uso de imágenes personalizadas
+
+
+1.Actualizamos el servidor
+Desde el servidor ejecutamos apt update, y éste actualizará el servidor. También realizamos la instalación de nano con el comando apt install nano, esta aplicación nos permitirá editar ficheros de texto con facilidad.
+  
+
+2. Directorio para el proyecto 
+Generamos una carpeta en el interior de este equipo con el comando mkdir proyecto, donde guardaremos los archivos y ficheros correspondientes además de realizar las correspondientes operaciones. Accederemos a este mismo con el comando cd proyecto.
+
+
+3. Instalación de docker 
+Entonces continuamos con el comando de instalación de docker, apt install docker docker-compose docker.io 
+  
+
+4. Ejecutamos contenedor Portainer
+Por si fuera necesario, instalaremos el contenedor Portainer. Este nos ofrece una manera de visualizar los contenedores, imágenes y más detalles de la ejecución de docker.
+Para ello implementaremos el siguiente comando, con el cual logramos la ejecución de Portainer en el puerto 9000.
+docker run -d -p 8100:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
+
+
+5. Ejecución de docker-compose.yml
+En el interior de Github se encuentra un archivo docker-compose.yml, este archivo será necesario para la ejecución de los contenedores del proyecto. Este documento nos importará las imágenes del proyecto subidas a docker Hub. 
+
+
+
+Pero antes de continuar será necesario realizar una pequeña modificación, en los apartados en los que aparece “{TU IP}” es necesario cambiarlos por la ip del equipo o servidor en el cual realizaremos las operaciones. Accediendo a este documento con el comando nano docker-compose.yml nos pondrá a editarlo. Introducimos los cambios correspondientes, y lo guardamos pulsando Ctrl + O.
+
+Con el uso del comando docker-compose -f {nombre del fichero} up dentro del repositorio en el que se encuentre el documento.
+
+
+Éste nos generará el proyecto al que se podrá acceder con el enlace {servidor o equipo local}:8080/ dando por finalizado este procedimiento.
